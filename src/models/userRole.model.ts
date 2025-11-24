@@ -10,4 +10,4 @@ const userRoleSchema = new Schema<IUserRole>({
   role_id: { type: Schema.Types.ObjectId, ref: "Role", required: true },
 }, { timestamps: true });
 
-export const userRoleModel = mongoose.model<IUserRole>("UserRole", userRoleSchema);
+export default mongoose.model<IUserRole>("UserRole", userRoleSchema);

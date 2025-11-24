@@ -3,8 +3,8 @@ import { Schema, Document } from "mongoose";
 import dotenv from "dotenv";
 import bcrypt from "bcryptjs";
 import { roleModel } from "../models/role.model";
-import { userModel}  from "../models/user.model";
-import { userRoleModel } from "../models/userRole.model";
+import  userModel  from "../models/user.model";
+import  userRoleModel from "../models/userRole.model";
 
 dotenv.config();
 
