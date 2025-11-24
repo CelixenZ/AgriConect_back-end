@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
 import bcrypt from "bcrypt";
 import { roleModel } from "../models/role.model";
-import { userModel } from "../models/user.model";
-import { userRoleModel }  from "../models/userRole.model";
+import  userModel  from "../models/user.model";
+import  userRoleModel   from "../models/userRole.model";
 import { Request , Response } from "express";
 
 
